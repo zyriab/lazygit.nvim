@@ -88,7 +88,7 @@ local function lazygit(path)
 
   win, buffer = open_floating_window()
 
-  local cmd = "lazygit"
+  local cmd = "lg"
 
   -- set path to the root path
   _ = project_root_dir()
